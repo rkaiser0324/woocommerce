@@ -133,6 +133,21 @@ class WC_Admin_Setup_Wizard {
 	}
 
 	/**
+	 * Should we show the Facebook install option?
+	 * True only if the user can install plugins,
+	 * and up until April 30, 2019.
+	 *
+	 * @return boolean
+	 */
+	protected function should_show_facebook() {
+		$end_date_facebook_recommendation = new DateTime( '1 April 2019' );
+		$current_user_date = new DateTime( current_time( 'Y-m-d' ) );
+
+		return current_user_can( 'install_plugins' ) &&
+			$end_date_facebook_recommendation >= $current_user_date;
+	}
+
+	/**
 	 * Should we display the 'Recommended' step?
 	 * True if at least one of the recommendations will be displayed.
 	 *
@@ -141,7 +156,8 @@ class WC_Admin_Setup_Wizard {
 	protected function should_show_recommended_step() {
 		return $this->should_show_theme()
 			|| $this->should_show_automated_tax()
-			|| $this->should_show_mailchimp();
+			|| $this->should_show_mailchimp()
+			|| $this->should_show_facebook();
 	}
 
 	/**
@@ -1903,6 +1919,17 @@ class WC_Admin_Setup_Wizard {
 						'img_url'     => WC()->plugin_url() . '/assets/images/obw-mailchimp-icon.svg',
 						'img_alt'     => __( 'MailChimp icon', 'woocommerce' ),
 						'plugins'     => array( array( 'name' => __( 'MailChimp for WooCommerce', 'woocommerce' ), 'slug' => 'mailchimp-for-woocommerce' ) ),
+					) );
+				endif;
+
+				if ( $this->should_show_facebook() ) :
+					$this->display_recommended_item( array(
+						'type'        => 'facebook',
+						'title'       => __( 'Facebook for WooCommerce', 'woocommerce' ),
+						'description' => __( 'The official Facebook extension makes it easy to reach the people who matter to your business and track the results of your advertising across devices.', 'woocommerce' ),
+						'img_url'     => WC()->plugin_url() . '/assets/images/obw-facebook-icon.svg',
+						'img_alt'     => __( 'Facebook icon', 'woocommerce' ),
+						'plugins'     => array( array( 'name' => __( 'Facebook for WooCommerce', 'woocommerce' ), 'slug' => 'facebook-for-woocommerce' ) ),
 					) );
 				endif;
 			?>
