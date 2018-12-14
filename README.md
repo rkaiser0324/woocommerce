@@ -4,6 +4,12 @@ Welcome to the WooCommerce repository on GitHub. Here you can browse the source,
 
 If you are not a developer, please use the [WooCommerce plugin page](https://wordpress.org/plugins/woocommerce/) on WordPress.org.
 
+## Building
+```
+composer update
+.\vendor\bin\apigen --debug
+```
+
 ## Documentation
 * [WooCommerce Documentation](https://docs.woocommerce.com/documentation/plugins/woocommerce/)
 * [WooCommerce Knowledge Base](https://support.woothemes.com/hc/en-us/categories/200146917-WooCommerce)
