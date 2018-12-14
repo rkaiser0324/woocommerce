@@ -5,9 +5,18 @@ Welcome to the WooCommerce repository on GitHub. Here you can browse the source,
 If you are not a developer, please use the [WooCommerce plugin page](https://wordpress.org/plugins/woocommerce/) on WordPress.org.
 
 ## Building
+
+Use Vagrant box from https://github.com/kenjis/vagrant-centos7-php.
 ```
+yum remove php
+yum install php71
+cd /bin
+rm -f php
+ln -s php71 php
+yum install php71-php-pecl-xdebug php71-php-mbstring joe zip unzip
 composer update
-.\vendor\bin\apigen --debug
+
+./vendor/bin/apigen generate ./ --destination ./wc-apidocs --verbose
 ```
 
 ## Documentation
