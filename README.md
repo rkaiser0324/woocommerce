@@ -6,17 +6,17 @@ If you are not a developer, please use the [WooCommerce plugin page](https://wor
 
 ## Building
 
-Use Vagrant box from https://github.com/kenjis/vagrant-centos7-php.
+Use Vagrant box from https://github.com/kenjis/vagrant-centos7-php and upgrade it to PHP 7.1.
 ```
 yum remove php
-yum install php71
+yum install -y php71
 cd /bin
 rm -f php
 ln -s php71 php
-yum install php71-php-pecl-xdebug php71-php-mbstring joe zip unzip
+yum install -y php71-php-pecl-xdebug php71-php-mbstring php71-php-xml joe zip unzip
 composer update
 
-./vendor/bin/apigen generate includes --destination wc-apidocs --verbose
+ ./vendor/bin/phpdoc -d includes/ -t wc-apidocs/
 ```
 
 ## Documentation
