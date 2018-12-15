@@ -16,7 +16,7 @@ ln -s php71 php
 yum install php71-php-pecl-xdebug php71-php-mbstring joe zip unzip
 composer update
 
-./vendor/bin/apigen generate ./ --destination ./wc-apidocs --verbose
+./vendor/bin/apigen generate includes --destination wc-apidocs --verbose
 ```
 
 ## Documentation
