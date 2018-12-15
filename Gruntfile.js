@@ -243,8 +243,8 @@ module.exports = function( grunt ) {
 			},
 			apidocs: {
 				command: [
-					'vendor/bin/apigen generate -q',
-					'cd apigen',
+					'.\vendor\bin\apigen generate -q ',
+					'cd apigen ',
 					'php hook-docs.php'
 				].join( '&&' )
 			},
