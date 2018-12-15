@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpdoc>
+	<title>WooCommerce 2.6.14</title>
+  <parser>
+    <target>wc-apidocs</target>
+  </parser>
+  <transformer>
+    <target>wc-apidocs</target>
+  </transformer>
+  <files>
+    <directory>includes</directory>
+  </files>
+</phpdoc>
