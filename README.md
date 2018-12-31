@@ -22,3 +22,17 @@ Support requests in issues on this repository will be closed on sight.
 If you have a patch, or stumbled upon an issue with WooCommerce core, you can contribute this back to the code. Please read our [contributor guidelines](https://github.com/woothemes/woocommerce/blob/master/.github/CONTRIBUTING.md) for more information how you can do this.
 
 If you have an idea for WooCommerce, see the [Roadmap Trello board](https://trello.com/b/YgRbpuze/woocommerce-roadmap).
+
+## Building API Documentation
+* Install PHP 7.0 for Windows
+* In `php.ini`:
+  * Update the extension directory to `ext`
+  * Enable the openssl and fileinfo extensions
+
+```dos
+php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+php composer-setup.php
+php composer.phar update
+vendor\bin\phpdox
+cd apigen && php hook-docs.php
+```

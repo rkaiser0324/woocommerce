@@ -82,7 +82,7 @@ class WC_HookFinder {
 
 		ob_start();
 
-		echo '<div id="content">';
+		echo '<div id="mainstage">';
 		echo '<h1>Action and Filter Hook Reference</h1>';
 
 		foreach ( self::$files_to_scan as $heading => $files ) {
@@ -191,7 +191,7 @@ class WC_HookFinder {
 			if ( ! empty( self::$custom_hooks_found ) ) {
 				echo '<div class="panel panel-default"><div class="panel-heading"><h2>' . $heading . '</h2></div>';
 
-				echo '<table class="summary table table-bordered table-striped"><thead><tr><th>Hook</th><th>Type</th><th>File(s)</th></tr></thead><tbody>';
+				echo '<table class="summary table table-bordered table-striped"><thead><tr><th style="width:30%;text-align:left">Hook</th><th style="width:30%;text-align:left">Type</th><th style="width:30%;text-align:left">File(s)</th></tr></thead><tbody>';
 
 				foreach ( self::$custom_hooks_found as $hook => $details ) {
 					echo '<tr>
@@ -205,16 +205,18 @@ class WC_HookFinder {
 			}
 		}
 
-		echo '</div><div id="footer">';
+		echo '</div>';
 
-		$html   = file_get_contents( '../wc-apidocs/tree.html' );
-		$header = explode( '<div id="content">', $html );
-		$header = str_replace( '<li class="active">', '<li>', current( $header ) );
-		$header = str_replace( '<li class="hooks">', '<li class="active">', $header );
-		$header = str_replace( 'Tree | ', 'Hook Reference | ', $header );
-		$footer = explode( '<div id="footer">', $html );
-
-		file_put_contents( '../wc-apidocs/hook-docs.html', $header . ob_get_clean() . end( $footer ) );
+		$html   = file_get_contents( '../wc-apidocs/index.html' );
+		if (preg_match('@^(.+)</nav>@imsu', $html, $matches))
+		{
+			$header = $matches[0];
+		}
+		if (preg_match('@<footer>(.+)</footer>@imsu', $html, $matches))
+		{
+			$footer = $matches[0];
+		}
+		file_put_contents( '../wc-apidocs/hook-docs.html', $header . ob_get_clean() . $footer );
 		echo "Hook docs generated :)\n";
 	}
 }
