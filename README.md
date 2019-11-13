@@ -26,6 +26,7 @@ If you have an idea for WooCommerce, see the [Roadmap Trello board](https://trel
 ## Building API Documentation
 The fastest, easiest way is to use the Windows build of PHP 7.0.
 
+1. Install Git for Windows and ensure it is in the PATH
 1. Install PHP 7.0 for Windows
 1. In `php.ini`:
    1. Update the extension directory to `ext`
