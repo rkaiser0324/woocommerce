@@ -24,15 +24,19 @@ If you have a patch, or stumbled upon an issue with WooCommerce core, you can co
 If you have an idea for WooCommerce, see the [Roadmap Trello board](https://trello.com/b/YgRbpuze/woocommerce-roadmap).
 
 ## Building API Documentation
-* Install PHP 7.0 for Windows
-* In `php.ini`:
-  * Update the extension directory to `ext`
-  * Enable the openssl and fileinfo extensions
+The fastest, easiest way is to use the Windows build of PHP 7.0.
 
-```dos
-php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
-php composer-setup.php
-php composer.phar update
-vendor\bin\phpdox
-cd apigen && php hook-docs.php
-```
+1. Install PHP 7.0 for Windows
+1. In `php.ini`:
+   1. Update the extension directory to `ext`
+   1. Enable the `openssl` and `fileinfo` extensions
+
+1. Execute the following in a DOS terminal:
+    ```dos
+    cd \thepath\to\woocommerce
+    php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+    php composer-setup.php
+    php composer.phar update
+    .\vendor\bin\phpdox
+    cd apigen && php hook-docs.php
+    ```
