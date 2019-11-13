@@ -2,6 +2,7 @@
 project.xml
 project.properties
 /nbproject/private/
+/build/
 .buildpath
 .project
 .settings*
