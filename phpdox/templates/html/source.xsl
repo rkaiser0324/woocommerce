@@ -22,7 +22,7 @@
     <xsl:template match="/">
         <html lang="en">
             <head>
-                <title>phpDox - Source of <xsl:value-of select="//src:file/@file" /></title>
+                <title>WooCommerce 2.6.14 - Source of <xsl:value-of select="//src:file/@file" /></title>
                 <link rel="stylesheet" type="text/css" href="{$base}css/style.css" media="screen" />
                 <link rel="stylesheet" href="{$base}css/source.css" />
                 <meta http-equiv="content-type" content="text/html; charset=utf-8" />

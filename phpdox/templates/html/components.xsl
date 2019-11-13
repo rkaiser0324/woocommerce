@@ -21,13 +21,16 @@
     <xsl:param name="hasClasses" select="'N'" />
     <xsl:param name="hasReports" select="'N'" />
 
+	<xsl:variable name="current" select="//pdx:enrichment[@type='git']/git:current" />
+
     <!-- ######################################################################################################### -->
 
     <xsl:template name="head">
         <xsl:param name="title" select="'Overview'" />
 
         <head>
-            <title>phpDox - <xsl:value-of select="$title" /></title>
+			<link rel="shortcut icon" href="https://woocommerce.com/wp-content/uploads/2016/07/cropped-cropped-cropped-favicon.png?w=32" type="image/x-icon" />
+            <title>WooCommerce <xsl:value-of select="$current/@branch" /></title>
             <link rel="stylesheet" type="text/css" href="{$base}css/style.css" media="screen" />
             <meta http-equiv="content-type" content="text/html; charset=utf-8" />
         </head>

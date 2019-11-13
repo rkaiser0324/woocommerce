@@ -48,7 +48,6 @@
                 <p><xsl:value-of select="//pdx:enrichment[@type='build']/pdx:date/@rfc" /></p>
                 <h3>VCS Info</h3>
                 <p>
-                    <xsl:variable name="current" select="//pdx:enrichment[@type='git']/git:current" />
                     tag: <xsl:value-of select="$current/@describe" /><br/>
                     branch: <xsl:value-of select="$current/@branch" />
                 </p>
