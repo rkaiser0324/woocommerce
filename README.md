@@ -37,6 +37,5 @@ The fastest, easiest way is to use the Windows build of PHP 7.0.
     php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
     php composer-setup.php
     php composer.phar update
-    .\vendor\bin\phpdox
-    cd apigen && php hook-docs.php
+    .\vendor\bin\phpdox && cd apigen && php hook-docs.php && cd ..
     ```

@@ -122,7 +122,7 @@
 
             <!--  default engine "html" -->
             <build engine="html" enabled="true" output=".">
-                <template dir="${phpDox.home}/templates/html" />
+                <template dir="${phpDox.home}/../../../phpdox/templates/html" />
                 <file extension="html" />
             </build>
 
