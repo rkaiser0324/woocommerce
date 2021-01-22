@@ -1,243 +1,217 @@
-=== Jigoshop - WordPress eCommerce ===
-Contributors: jigowatt
-Tags: ecommerce, wordpress ecommerce, store, shop, shopping, cart, checkout, widgets, reports, shipping, tax, paypal
-Requires at least: 3.1
-Tested up to: 3.2
-Stable tag: 0.9.8.1
- 
-A feature packed eCommerce plugin built upon WordPress core functionality ensuring excellent performance and customisability. 
+=== WooCommerce ===
+Contributors: automattic, mikejolley, jameskoster, claudiosanches, kloon, rodrigosprimo, peterfabian1000, vedjain, jamosova, obliviousharmony, konamiman, sadowski
+Tags: e-commerce, store, sales, sell, woo, shop, cart, checkout, downloadable, downloads, payments, paypal, storefront, stripe, woo commerce
+Requires at least: 5.3
+Tested up to: 5.5
+Requires PHP: 7.0
+Stable tag: 4.5.2
+License: GPLv3
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+
+WooCommerce is the world’s most popular open-source eCommerce solution.
 
 == Description ==
 
-Set up shop in minutes with physical and downloadable products or even services. Jigoshop provides you with the features necessary to set up an eCommerce web site lickety-split.
+WooCommerce is the world’s most popular open-source eCommerce solution. 
 
-With the option to create a multitude of product types and apply detailed attributes customers can easily refine your catalog, ensuring they find what they're looking for in just a couple of clicks.
+Our core platform is free, flexible, and amplified by a global community. The freedom of open-source means you retain full ownership of your store’s content and data forever.
 
-There are integrated worldwide payment and shipping options to cater for a global audience.
+Whether you’re launching a business, taking brick-and-mortar retail online, or developing sites for clients, use WooCommerce for a store that powerfully blends content and commerce.
 
-Inside the custom dashboard you get sortable sales graphs, incoming order / review notifications as well as stats on your stores performance.
+- **Create beautiful, enticing storefronts** with [themes](https://woocommerce.com/product-category/themes/?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing) suited to your brand and industry.
+- **Customize pages in minutes** using modular [product blocks](https://docs.woocommerce.com/document/woocommerce-blocks/?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing).
+- Showcase physical and digital goods, product variations, custom configurations, instant downloads, and affiliate items. [Bookings](https://woocommerce.com/products/woocommerce-bookings/?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing), [memberships](https://woocommerce.com/products/woocommerce-memberships/?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing), [subscriptions](https://woocommerce.com/products/woocommerce-subscriptions/?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing), and [dynamic pricing](https://woocommerce.com/products/dynamic-pricing/?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing) rules are only an extension away.
+- **Rise to the top of search results** by leveraging [WordPress’ SEO advantage](https://www.searchenginejournal.com/wordpress-best-cms-seo/).
 
-Manage your stock levels and customer orders easily. Jigoshop has been engineered to make the boring parts of eCommerce, well, less boring!
+Built-in tools and popular integrations help you efficiently manage your business operations. Many services are free to add with a single click via the optional [Setup Wizard](https://docs.woocommerce.com/document/woocommerce-setup-wizard/?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing).
 
-Built upon the WordPress core you get all the benefits of this global leading platform: free, easy to use, secure, highly customisable and with a great support community to hold your hand.
+- **Choose how you want to get paid**. Conveniently manage payments from the comfort of your store with [WooCommerce Payments](https://woocommerce.com/payments/?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing) (U.S.-only). Securely accept cards, mobile wallets, bank transfers, and cash thanks to [100+ payment gateways](https://woocommerce.com/product-category/woocommerce-extensions/payment-gateways/?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing) – including [Stripe](https://woocommerce.com/products/stripe/?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing), [PayPal](https://woocommerce.com/products/woocommerce-gateway-paypal-checkout/?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing), and [Square](https://woocommerce.com/products/square/?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing).
+- **Configure your shipping options**. Print USPS labels right from your dashboard and even schedule a pickup with [WooCommerce Shipping](https://woocommerce.com/products/shipping/?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing) (U.S.-only). Connect with [well-known carriers](https://woocommerce.com/product-category/woocommerce-extensions/shipping-methods/?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing) such as UPS, FedEx, and ShipStation – plus a wide variety of delivery, inventory, and fulfillment solutions for your locale.
+- **Simplify sales tax**. Add [WooCommerce Tax](https://woocommerce.com/products/tax/?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing) or [similar integrated services](https://woocommerce.com/product-category/woocommerce-extensions/tax?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing) to make automated calculations a reality.
 
-Styled to work with Twenty Ten, setting up a clean stylish store is easy.
+= Grow your business, add features, and monitor your store on the go =
 
-Find out more on the official <a href="http://jigoshop.com" title="WordPress eCommerce">Jigoshop web site</a>.
+WooCommerce means business. Keep tabs on the performance metrics most important to you with [WooCommerce Admin](https://wordpress.org/plugins/woocommerce-admin/?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing) – a powerful, customizable central dashboard for your store.
 
-[vimeo http://vimeo.com/21797311]
+Expand your audience across marketing and social channels with [Google Ads](https://woocommerce.com/products/google-ads/?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing), [HubSpot](https://woocommerce.com/products/hubspot-for-woocommerce/?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing), [Mailchimp](https://woocommerce.com/products/mailchimp-for-woocommerce/?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing), and [Facebook](https://woocommerce.com/products/facebook/?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing) integrations. You can always check out the in-dashboard [Marketing Hub](https://docs.woocommerce.com/document/marketing-hub/?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing) for fresh ideas and tips to help you succeed.
 
-= Jigoshop core features: =
+Enhance store functionality with hundreds of free and paid extensions from the [official WooCommerce Marketplace](https://woocommerce.com/products/?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing). Our developers [vet each new extension](https://docs.woocommerce.com/document/marketplace-overview/#section-6?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing) and regularly review existing inventory to maintain Marketplace quality standards. We are actively [looking for products that help store builders create successful stores](https://docs.woocommerce.com/document/marketplace-overview/#section-2?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing).
 
-* Sell physical, digital and virtual products
-* Simple, grouped and configurable&dagger; products
-* Discount coupon management
-* Automatic related products
-* Product reviews / hreviews
-* Tax by location
-* Currency options
-* Multiple shipping options
-* Layered product navigation
-* Customer account area
-* Inventory tracking
-* Detailed order management
-* Product import / export
-* Custom widgets - recent / featured products, shopping cart, product search
-* PayPal standard
-* Moneybookers / Skrill
-* Cheque payments
+Manage your store from anywhere with the free WooCommerce [mobile app](https://woocommerce.com/mobile/?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing) (Android and iOS). Spoiler alert: Keep an ear out for the slightly addictive "cha-ching" notification sound each time you make a new sale!
 
-(&dagger;) Coming soon
+= Own and control your store data – forever =
 
-= Official Jigoshop themes =
+With WooCommerce, your data belongs to you. Always.
 
-* <a href="http://jigoshop.com/themes/jigotheme/" title="Premium WordPress eComemrce theme for Jigoshop">Jigotheme</a> - Our flagship premium theme complete with mobile optimisation.
-* <a href="http://jigoshop.com/themes/origin/" title="Premium WordPress eComemrce theme for Jigoshop">Origin</a> - A clean, minimalist theme for WordPress/Jigoshop.
+If you opt to share [usage data](https://woocommerce.com/usage-tracking/?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing) with us, you can feel confident knowing that it’s anonymized and kept secure. Choose to opt-out at any time without impacting your store. 
 
-= Official Jigoshop Extensions =
+Unlike hosted eCommerce solutions, WooCommerce store data is future-proof; should you wish to migrate to a different platform, you’re free to export all your content and take your site wherever you choose. No restrictions.
 
-* <a href="http://jigoshop.com/extensions/sagepay-form/" title="SagePay Form payment gateway extension of Jigoshop">SagePay Form</a> - SagePay Form payment gateway.
-* <a href="http://jigoshop.com/extensions/jigoshop-html-email/" title="Jigoshop HTML Emails">Jigoshop HTML Emails</a> - Give your Jigoshop emails a makeover
-* <a href="http://jigoshop.com/extensions/jigoshop-meta-tags/" title="Simple SEO Meta Tags">Simple SEO Meta Tags</a> - Add meta data to your individual product pages
-* <a href="http://jigoshop.com/extensions/table-rate-shipping/" title="Table Rate Shippin">Table Rate Shipping</a> - Define separate shipping rates for regions based on either price, weight or the number of items in a cart
-* <a href="http://jigoshop.com/extensions/jigoshop-up-sell-cross-sell/" title="Up-sell and Cross-sells">Up-sells &amp; Cross-sells</a> - Maximise your stores potential and increase average shopping cart totals by up-selling and cross-selling your products
+= Why developers choose (and love) WooCommerce =
 
+Developers can use WooCommerce to create, customize, and scale a store to meet a client’s exact specifications, making enhancements through extensions or custom solutions. 
 
-= Minimum Requirements =
+- Leverage [hooks and filters](https://docs.woocommerce.com/document/introduction-to-hooks-actions-and-filters/?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing) to modify or create functionality.
+- Integrate virtually any service using a robust [REST API](https://docs.woocommerce.com/document/woocommerce-rest-api/?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing) and webhooks.
+- Design and build custom content blocks with React.
+- [Inspect and modify](https://docs.woocommerce.com/documentation/plugins/woocommerce/woocommerce-codex/extending/?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing) any aspect of the core plugin code.
+- Speed up development with a lightning-fast [CLI](https://woocommerce.github.io/code-reference/classes/wc-cli-rest-command.html?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing).
 
-* A WordPress install!
-* PHP version 5.2.4 or greater
-* MySQL version 5.0 or greater
-* The mod_rewrite Apache module (for permalinks)
-* fsockopen support (for payment gateway IPN access)
-* We recommend a Linux based server rather than a Windows server (Windows servers can have PHP configuration problems, especially with mail).
+The core platform is tested rigorously and often, supported by a dedicated development team working across time zones. Comprehensive documentation is updated with each release, empowering you to build exactly the store required.
 
-== Installation ==
+= Be part of our growing international community =
 
-= To Install: =
+WooCommerce has a large, passionate community dedicated to helping merchants succeed, and it’s growing fast.
 
-1.  Download the Jigoshop plugin file
-2.  Unzip the file into a folder on your hard drive
-3.  Upload the `/jigoshop/` folder to the `/wp-content/plugins/` folder on your site
-4.  Visit the plugins page in admin and activate it
-5.	Re-save your permalink settings to ensure custom post types are installed
+There are [WooCommerce Meetups](https://woocommerce.com/meetups/?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing) in locations around the world that you can attend for free and even get involved in running. These events are a great way to learn from others, share your expertise, and connect with like-minded folks.
 
-= Upgrading Jigoshop =
+WooCommerce also has a regular presence at WordCamps across the globe – we’d love to meet you.
 
-After upgrading Jigoshop plugin files, be sure to re-activate the plugin to ensure new components are installed correctly.
+= Contribute and translate =
 
-= Setting up and configuring Jigoshop =
+WooCommerce is developed and supported by Automattic, the creators of WordPress.com and Jetpack. We also have hundreds of independent contributors, and there’s always room for more. Head to the [WooCommerce GitHub Repository](https://github.com/woocommerce/woocommerce?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing) to find out how you can pitch in.
 
-You can find the Jigoshop usage guide <a href="http://jigoshop.com/user-guide/" title="Jigoshop usage guide">on our web site</a>.
+WooCommerce is translated into multiple languages, including Danish, Ukrainian, and Persian. Help localize WooCommerce even further by adding your locale – visit [translate.wordpress.org](https://translate.wordpress.org/projects/wp-plugins/woocommerce/?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing).
 
 == Frequently Asked Questions ==
 
-= Will Jigoshop work with X theme? =
+= Where can I find WooCommerce documentation and user guides? =
 
-Jigoshop will in theory work with any theme, but of course, certain parts may need to be styled using CSS to make them match up. We've added default styling for Twenty Ten (the WordPress default theme) and we also provide a few bespoke themes optimised for Jigoshop.
+For help setting up and configuring WooCommerce, please refer to [Getting Started](https://docs.woocommerce.com/documentation/plugins/woocommerce/getting-started/?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing) and the [New WooCommerce Store Owner Guide](https://woocommerce.com/guides/new-store/?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing).
 
-If you need a theme built, or have a theme that needs styling, give us a shout and we may be able to assist (see http://jigowatt.co.uk/contact/).
+For extending or theming WooCommerce, see our [codex](https://docs.woocommerce.com/documentation/plugins/woocommerce/woocommerce-codex/?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing), as well as the [Plugin Developer Handbook](https://docs.woocommerce.com/document/create-a-plugin/?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing).
 
-= Can I have Jigoshop in my language =
+= Where can I get help or talk to other users about WooCommerce Core? =
 
-Jigoshop comes with a .po file and is localisation ready. If you'd like to share your localisation with us please get in touch!
+If you get stuck, you can ask for help in the [WooCommerce Support Forum](https://wordpress.org/support/plugin/woocommerce/?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing) by following [these guidelines](https://wordpress.org/support/topic/guide-to-the-woocommerce-forum/?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing), reach out via the [WooCommerce Community Slack](https://woocommerce.com/community-slack/?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing), or post in the [WooCommerce Community group](https://www.facebook.com/groups/advanced.woocommerce?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing) on Facebook.
 
-= Do you have an X payment gateway = 
+= Where can I get help for extensions I have purchased on WooCommerce.com? =
 
-We will be introducing payment gateways incrementally, however, not all will be in the free version. If you want to request a payment gateway, or you have built one and you would like to share it with us, please get in touch.
+For assistance with paid extensions from the WooCommerce.com Marketplace: first, review our [self-service troubleshooting guide](https://docs.woocommerce.com/document/woocommerce-self-service-guide/). If the problem persists, kindly log a support ticket via [our helpdesk](https://woocommerce.com/my-account/create-a-ticket/). Our dedicated Happiness Engineers aim to respond within 24 hours.
 
-= Do I have access to my order and product data? = 
+= I’m having trouble logging in to WooCommerce.com – what now? =
 
-Orders and products are stored as custom post types in the WordPress database; you have full control of them and can import/export using WordPress' functions.
+First, troubleshoot common login issues using this helpful [step-by-step guide](https://docs.woocommerce.com/document/log-into-woocommerce-com-with-wordpress-com/?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing). Still not working? [Get in touch with us](https://woocommerce.com/contact-us/?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing).
 
-= Will tax settings work in my country? = 
+= Will WooCommerce work with my theme? =
 
-Jigoshop has a flexible tax rule system which allows you to define tax rates per country - it should allow you to do what you want.
+Yes! WooCommerce will work with any theme but may require some additional styling. If you’re looking for a theme featuring deep WooCommerce integration, we recommend [Storefront](https://woocommerce.com/storefront/?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing).
 
-= I need hosting! = 
+= How do I update WooCommerce? =
 
-We offer optimised hosting packages starting from 10 GBP per month at http://jigowatt.co.uk
+We have a detailed guide on [How To Update WooCommerce](https://docs.woocommerce.com/document/how-to-update-woocommerce/?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing).
 
-= I need support! = 
+= My site broke – what do I do? =
 
-We have a <a href="http://jigoshop.com/forum" title="Jigoshop support forum">community forum</a> for getting help from other users, however, if you want priority, dedicated support from us we offer support packages - see our website for details. 
+Start by diagnosing the issue using our helpful [troubleshooting guide](https://docs.woocommerce.com/documentation/get-help/troubleshooting-get-help/?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing). 
 
-== Screenshots ==
+If you noticed the error after updating a theme or plugin, there might be compatibility issues between it and WooCommerce. If the issue appeared after updating WooCommerce, there could be a conflict between WooCommerce and an outdated theme or plugin.
 
-1. Jigoshop Dashboard
-2. Jigoshop Settings
-3. Shipping settings
-4. Products
-5. Product details
-6. Orders
-7. Homepage
-8. Cart
-9. Checkout
+In both instances, we recommend running a conflict test using [Health Check](https://docs.woocommerce.com/document/troubleshooting-using-health-check/?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing) (which allows you to disable themes and plugins without affecting your visitors) or troubleshooting the issue using a [staging site](https://docs.woocommerce.com/document/how-to-test-for-conflicts/#section-3?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing).
+
+= Where can I report bugs? =
+
+Report bugs on the [WooCommerce GitHub repository](https://github.com/woocommerce/woocommerce/issues?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing). You can also notify us via our support forum – be sure to search the forums to confirm that the error has not already been reported.
+
+= Where can I request new features, themes, and extensions? =
+
+Request new features and extensions and vote on existing suggestions on our official [ideas board](https://ideas.woocommerce.com/forums/133476-woocommerce?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing). Our Product teams regularly review requests and consider them valuable for product planning.
+
+= WooCommerce is awesome! Can I contribute? =
+
+Yes, you can! Join in on our [GitHub repository](https://github.com/woocommerce/woocommerce/?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing) and follow the [development blog](https://woocommerce.wordpress.com/?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing) to stay up-to-date with everything happening in the project.
+
+= Where can I find REST API documentation? =
+
+Extensive [WooCommerce REST API Documentation](https://woocommerce.github.io/woocommerce-rest-api-docs/?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing) is available on GitHub.
+
+= My question is not listed here. Where can I find more answers? =
+
+Check out [Frequently Asked Questions](https://docs.woocommerce.com/document/frequently-asked-questions/?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing) for more.
+
+== Installation ==
+
+= Minimum Requirements =
+
+* PHP 7.2 or greater is recommended
+* MySQL 5.6 or greater is recommended
+
+Visit the [WooCommerce server requirements documentation](https://docs.woocommerce.com/document/server-requirements/?utm_source=wp%20org%20repo%20listing&utm_content=3.6) for a detailed list of server requirements.
+
+= Automatic installation =
+
+Automatic installation is the easiest option -- WordPress will handles the file transfer, and you won’t need to leave your web browser. To do an automatic install of WooCommerce, log in to your WordPress dashboard, navigate to the Plugins menu, and click “Add New.”
+ 
+In the search field type “WooCommerce,” then click “Search Plugins.” Once you’ve found us,  you can view details about it such as the point release, rating, and description. Most importantly of course, you can install it by! Click “Install Now,” and WordPress will take it from there.
+
+= Manual installation =
+
+Manual installation method requires downloading the WooCommerce plugin and uploading it to your web server via your favorite FTP application. The WordPress codex contains [instructions on how to do this here](https://wordpress.org/support/article/managing-plugins/#manual-plugin-installation).
+
+= Updating =
+
+Automatic updates should work smoothly, but we still recommend you back up your site.
+
+If you encounter issues with the shop/category pages after an update, flush the permalinks by going to WordPress > Settings > Permalinks and hitting “Save.” That should return things to normal.
+
+= Sample data =
+
+WooCommerce comes with some sample data you can use to see how products look; import sample_products.xml via the [WordPress importer](https://wordpress.org/plugins/wordpress-importer/). You can also use the core [CSV importer](https://docs.woocommerce.com/document/product-csv-importer-exporter/?utm_source=wp%20org%20repo%20listing&utm_content=3.6) or our [CSV Import Suite extension](https://woocommerce.com/products/product-csv-import-suite/?utm_source=wp%20org%20repo%20listing&utm_content=3.6) to import sample_products.csv
 
 == Changelog ==
 
-= 0.9.9 = 
-* PRODUCT VARIATIONS
-* Revamped order items panel
-* Grouped products can contain downloadable, simple, or virtual products
-* Changed mail from/to for store
-* Download limiter fix
-* Settings strip slashes
-* Moved update/remove from cart code so totals are updated and shipping is updated
-* Fixed 'needs shipping' for downloadable products
-* Made my account downloads respect order status
-* Filter for ship to billing defaults
-* Optimised scripts.js (no longer a php file)
+= 4.5.2 - 2020-09-14 =
+* Fix - Revert the changes in filtering by attribute that were introduced in WooCommerce 4.4. #27625
+* Fix - Adjusted validation to allow for variations with "0" as an attribute value. #27633
 
-= 0.9.8.1 =
-* Changes to allow new product types to be added by plugins
-* Twenty Eleven fixes
-* Front page shop support
-* virtual add to cart
-* Shop page can show content
-* SKU display options
-* Fixes for default permalinks
-* Better ajax handling
-* Better shortcode handling with cache
-* Filters added to email contents
+= 4.5.1 - 2020-09-09 =
 
-= 0.9.8 =
+**WooCommerce**
+* Fix - Check for state and postcode fields only if required in `show_shipping`. #27628
 
-* Major changes to template code in an attempt to make it more flexible and easier to theme from the plugin
-* Form code changes making things more semantic
-* Tweaked category order code
-* Changed 'download remaining' database field into a varchar
-* localisation issues
-* ui.css cut down
-* Fixed edit address and change password nonce fields
-* Hook for add to cart redirect
-* Fixes to sale dates logic
-* New product preview shortcodes
-* option to hide hidden products in recent products widget
-* Breadcrumbs add shop base if chosen as a base
-* Tweaked gateway/shipping loading code to work with plugins
-* Demo store banner added
-* postcode accepts hyphens
+= 4.5.0 - 2020-09-08 =
 
-= 0.9.7.8 =
+**WooCommerce**
+* Localization - Added postcode validation for Bosnia and Herzegovina. #27048
+* Localization - Added the postcode validation for Liechtenstein. #27059
+* Localization - Add i18n locale information for Liechtenstein, Switzerland and Austria. #27193
+* Tweak - Increase priority of `admin_body_class` filter to avoid comflict with plugins that incorrectly remove all body classes from WP. #27426
+* Tweak - Rename built-in PayPal payment method to PayPal Standard. #27468
+* Fix - Remove whitespace within a link. #26897
+* Fix - `get_review_count_for_product` return all comments count not only 'review' types #26928
+* Fix - Hidden field type is now supported by `woocommerce_form_field`. #27023
+* Fix - Remove state for country liechtenstein. #27057
+* Fix - Fixed validation of variation attributes while adding products to the cart. #27115
+* Fix - Coupon code inconsistent between admins and shop owners. #27140
+* Fix - Fixed the logic behind "Hide shipping costs until an address is entered". #27143
+* Fix - Searches for variations now will fallback to parent SKU if one is not entered. #27171
+* Fix - Release coupon holds for cancelled orders previously in pending status. #27179
+* Fix - Fixes Japan zip code format issue (dash is now optional). #27244
+* Fix - Restore backward compatibility with WC 4.x and forward compatibility with WC 5.5. #27318
+* Fix - Switch to site locale before translating refund reason. #27323
+* Fix - Declare `WC_Post_Types::updated_term_messages` as a static method to remove PHP deprecation warning. #27436
+* Fix - Allow HTML to be entered in product title for formatting purposes. #27465
+* Fix - Filter by attribute widget not working properly for variations having attribute values of "Any...". #27508
+* Fix - Fixed the layout of the variations and attributes sections in the product page in the admin when running WP >= 5.5. #27590
+* Dev - Added additional stock-based cart filters including `woocommerce_cart_product_cannot_add_another_message`, `woocommerce_cart_product_out_of_stock_message`, and `woocommerce_cart_product_not_enough_stock_message`. #26439
+* Dev - Changed text domain to `woocommerce` for REST API files. #27248
+* Dev - Added file path to the `woocommerce_file_download_method` filter. #27152
+* Dev - Merge API Package into core. #27100
 
-* Download permissions bug with emails
-* Lets you save download limit as blank
+**WooCommerce Admin 1.5.0**
+* Enhancement - Add eWAY to Payment Setup for AU/NZ Stores. #4947
+* Fix - Use clipRule and fillRule props. #4889, part of #4864
+* Fix - Admin order page shipping label prompt compatibility with WCS 1.24. #5025
+* Dev - New notification: Don't forget to test your checkout. #4805
+* Dev - Enable tax calculation before redirecting to standard tax rates page. #4878
+* Dev - Added event recording to Orders, Stock, and Reviews panels. #4861
+* Dev - Added personalization to purchase extension task. #4849
+* Dev - Display modal with more info about the new homescreen. #4890
+* Dev - Task list - add a shortcut back to store setup. #4853
+* Dev - Update the colors of the illustrations in the welcome modal. #4945
+[See changelog for all versions](https://raw.githubusercontent.com/woocommerce/woocommerce/master/changelog.txt).
 
-= 0.9.7.7 =
+== Upgrade Notice ==
 
-* Fixed discount code logic
-* Changed/improved nonces
-* Tax amounts take base tax rate into consideration - should fix tax rates for other countries
-* Localisation fixes
-* Added JIGOSHOP_TEMPLATE_URL constant for moving the template folder within your theme (for better theme compatibility)
-* Option in settings to turn off css
-* Taxonomy ordering script to allow sorting of product categories using drag and drop
-* Excluded shop order comments from front end widget
-* per-page limit fix
-* Added body classes based on page
-* Unlimited download fix
-* Lost password link on my-account login
-* weight calc fix
-* Fixes inconsistent page slugs (- instead of _)
-* init changes
-* options for foreign currencies
-* Added german localization by AlistarMclean
-* Removed IE6 stuff from fancybox to speed it up
-* Added option to send shipping info to paypal
-
-= 0.9.7.6 =
-
-* POT file added
-* global option filtering
-* Country name localisation
-* 'Shop' page created on install
-* Page select boxes in admin
-* Options for different permalinks (with a base url)
-* Security fixes
-* One click featuring of products
-* Options to configure page IDs
-* Better support for child themes
-* Better support for plugin folder names
-* Localization of scripts
-
-= 0.9.7.5 =
-
-* GITHUB setup for Jigoshop Project
-
-= 0.9.7.4 =
-
-* Default SSL option changed
-* Empty drop-ins folder fix
-* Fixed localisation issues
-* Option to disallow having a different shipping address to the billing address
-* Fixed category dropdown widget
-* Fallback for HTML5 placeholders
-
-= 0.9.7.3 =
-
-* Tweaked how files are included to prevent an error
-
-= 0.9.6 =
-
-* Public Beta Release
+= 4.0 =
+4.0 is a major update. Make a full site backup, update your theme and extensions, and [review update best practices](https://docs.woocommerce.com/document/how-to-update-your-site) before upgrading.

@@ -1,0 +1,11 @@
+{
+    "name": "rkaiser0324/woocommerce",
+    "type": "wordpress-plugin",
+    "description": "WooCommerce",
+    "config": {
+        "preferred-install": "source"
+    },
+    "require": {
+        "composer/installers": "1.*"
+    }
+}
